@@ -23,6 +23,7 @@ class User {
     
     const Mario = new User("Mario", "Rossi", 25, "Cosenza");
     const Vittorio = new User("Vittorio", "Vescio", 30, "Cosenza");
+    const Salvatore = new User("Salvatore", "Scapece", 21, "Pordenone");
 
     console.log("Mario");
 
