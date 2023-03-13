@@ -41,7 +41,7 @@ class Pet {
         this.breed = breed;
       }
       static SameOwner(pet1, pet2){
-        if (pet1.ownerName === pet2.ownerName){
+        if (pet1.ownerName.toUpperCase === pet2.ownerName.toUpperCase){
             return true;
         } else {
             return false;
