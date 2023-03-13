@@ -9,7 +9,7 @@ class User {
       }
     
 
-    ComparaEtà (User) {
+    AgeComparison (User) {
         if (this.age === User.age) {
             return this.firstName + " e " + User.firstName + "sono coetanei.";
           } else if (this.age > User.age) {
@@ -26,7 +26,7 @@ class User {
 
     console.log("Mario");
 
-    console.log(Mario.ComparaEtà(Vittorio));
+    console.log(Mario.AgeComparison(Vittorio));
 
 
     //esercizio 2
@@ -39,7 +39,7 @@ class Pet {
         this.species = species;
         this.breed = breed;
       }
-      static PadroneUguale(pet1, pet2){
+      static SameOwner(pet1, pet2){
         if (pet1.ownerName === pet2.ownerName){
             return true;
         } else {
