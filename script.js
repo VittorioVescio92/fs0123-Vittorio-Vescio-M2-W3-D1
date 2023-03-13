@@ -31,6 +31,7 @@ class User {
 
     //esercizio 2
 
+
 class Pet {
     constructor(petName, ownerName, species, breed) {
         this.petName = petName;
